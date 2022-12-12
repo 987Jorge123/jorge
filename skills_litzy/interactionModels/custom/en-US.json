@@ -1,0 +1,90 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "yes sir",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "Typeanimals",
+          "slots": [
+            {
+              "name": "animal",
+              "type": "animal"
+            }
+          ],
+          "samples": [
+            "what is",
+            "is animal",
+            "what is animal"
+          ]
+        },
+        {
+          "name": "Drinkings",
+          "slots": [
+            {
+              "name": "drink",
+              "type": "drink"
+            }
+          ],
+          "samples": [
+            "type drink",
+            "is drink"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "animal"
+              }
+            }
+          ],
+          "name": "animal"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "drink"
+              }
+            }
+          ],
+          "name": "drink"
+        }
+      ]
+    }
+  },
+  "version": "8"
+}
